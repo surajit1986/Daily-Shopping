@@ -1,0 +1,7 @@
+<header>
+    <span>Showing 
+        <strong>
+            {{(pageIndex-1)*pageSize +1}} - {{totalCount> ((pageIndex-1)*pageSize +1)? totalCount: ((pageIndex-1)*pageSize +1) }}
+        </strong> of 
+        <strong>{{totalCount> ((pageIndex-1)*pageSize +1)? totalCount: ((pageIndex-1)*pageSize +1) }}</strong> records</span>
+</header>
